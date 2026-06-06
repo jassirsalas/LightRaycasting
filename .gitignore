@@ -1,0 +1,54 @@
+# Entornos virtuales (Creados por uv, venv, poetry, etc.)
+.venv/
+venv/
+ENV/
+env/
+
+# Caché de compilación de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución / Empaquetado
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Caché de herramientas de testing y linters
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.cache
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Archivos específicos del Sistema Operativo
+Thumbs.db
+db.db
+Desktop.ini
+.DS_Store
+.directory
+
+# Configuración de editores e IDEs (opcional, pero útil)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
